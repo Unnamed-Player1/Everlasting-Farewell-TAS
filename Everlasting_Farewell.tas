@@ -1,10 +1,6 @@
 # FarewellBB
 # https://gamebanana.com/mods/405157
 
-RecordCount: 10562
-#An extra 6468
-#by aqmlyn
-
 console load luma/farewellbb/FarewellBB
    1
 
