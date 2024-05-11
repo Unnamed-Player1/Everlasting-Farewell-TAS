@@ -1,7 +1,7 @@
 # FarewellBB
 # https://gamebanana.com/mods/405157
 
-RecordCount: 10621
+RecordCount: 10807
 #An extra 6468
 #by aqmlyn
 
@@ -638,42 +638,52 @@ console load luma/farewellbb/FarewellBB
 
 #Frontier
 #lvl_d-intro
-  17,R,J
+  16,R,J
   15,R,U,X
-  10,R
-   5,R,Z
-   9,R,J
-  11,R,K,G
-   8,R
-   2,R,J
+   5,R,G
+   2,G
+   6,R,G
+   1,J
+  15
+   2,G
+   1,J,G
+  16
+   1,G
    1
-  17,R
-  25,R,J,G
-  36,R,D
-   8,R
-  25,R,Z
-  12,J
-  12,R,K,G
-  12,J,G
-   8,K,G
-   1,R,K
-   9,R,J,G
+   1,G
+   1
+   1,G
+   1
+   1,G
    2,R
-  21,R,Z
+   5,L
+   6,R,Z
+  10,R,J
+   2,R
+   4,R,K,G
+   1,R
+   7,R,J
+   6,R,K,G
+  16,R
+   1
+   6,R
+  50,R,J,G
+  29,R,U,V
+  24,R,X
+  10,D
+   1,L,J
+  10,R,D,X
    1,R,J
-   2,R
-  10,L,D,X
-   6,R,J
-   5,R
+   7,R
   14,R,D,X
    1,R,J
-   5,R
+   3,R
   14,R,D,X
   12,R,J
   13,R
   20,R,Z
    1,R,J
-   6,R,D,X
+   5,R,D,X
   40
 
 #lvl_d-0
@@ -4698,6 +4708,6 @@ Repeat, 33
 EndRepeat
    2,R
    1,L
-ChapterTime: 13:22.298(47194)
+ChapterTime: 13:22.196(47188)
  100
    1,J
