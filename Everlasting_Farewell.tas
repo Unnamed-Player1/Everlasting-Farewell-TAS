@@ -1,7 +1,7 @@
 # FarewellBB
 # https://gamebanana.com/mods/405157
 
-RecordCount: 10807
+RecordCount: 10878
 #An extra 6468
 #by aqmlyn
 
@@ -2071,20 +2071,34 @@ AnalogMode,Precise
   15,D,X
   87,D
   40
-
 #Inner Depths
 #lvl_k-intro
-  99,D
-  88,R,D
-  12,R,Z
-   8,R,J
+   1,S
+   1,D,J
+ 103
+  10,L,Z
+  12,R,J
+  11,R,U,X
+   1,R,J,G
+  10,R,J
   40
+# old version of this room
+#  99,D
+#  88,R,D
+#  12,R,Z
+#   8,R,J
+#  40
 
 #lvl_k-0
-   1,R
-  10,R,Z
-   1,R,J
-   2,R
+   3
+  10,R,D,X
+   1,R,J,G
+   5,R
+# old start
+#   1,R
+#  10,R,Z
+#   1,R,J
+#   2,R
   11,R,Z
   11,R,J
   15,R,D,X
@@ -4708,6 +4722,7 @@ Repeat, 33
 EndRepeat
    2,R
    1,L
-ChapterTime: 13:22.196(47188)
+
+ChapterTime: 13:21.244(47132)
  100
    1,J
