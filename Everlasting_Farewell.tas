@@ -1,7 +1,7 @@
 # FarewellBB
 # https://gamebanana.com/mods/405157
 
-RecordCount: 10980
+RecordCount: 13541
 #An extra 6468
 #by aqmlyn
 
@@ -21,15 +21,15 @@ console load luma/farewellbb/FarewellBB
   15,U,X
    9,K,G
    7,L
-   8,L,J
-  10,J
+   8,L,K
+  10,K
   21,U,X
    1,R
    1,K
   11,L,J,G
    5,L
-   6,L,K,G
-   1,K
+   6,L,J,G
+   1,J
    7
   22,R
   13,U,Z
@@ -113,23 +113,21 @@ console load luma/farewellbb/FarewellBB
   50,R,D,G
   10,R,J,G
   66,R,U,G
-  33,R,D,G
-   8,R,D
+  32,R,D,G
+   9,R,D
    3,D
    1
    1,D
-   1
   15,U,X
   41,R,G
    1,L
-  38,R,D
-   3,R
+  39,R,D
+   2,R
    1,R,D
   26,R,U,X
-  24,R,Z
-  28,R,U,C
-   2
-   3,R,J,G
+  26,R,Z
+  27,R,U,C
+   4,R,J,G
    1,L,J
    7,R
    4,Z
@@ -210,12 +208,12 @@ console load luma/farewellbb/FarewellBB
    2
    1,R,D
   18,R,V
-  14,U,Z
+  13,U,X
   18,R,J
   10,R,K,G
   12,L,J
   12,R,K
-  10,R,J,G
+  11,R,J,G
   40
 
 #Generator
@@ -354,12 +352,11 @@ console load luma/farewellbb/FarewellBB
    4,L,J
    1,R,K,G
    3,L,K
-   3,R,J,G
-   3,R
-   1
-   3,R
-   4,R,J
-   5,R
+   1,R,J,G
+   2,R
+   1,R,K,G
+   9,R
+   5,R,J
   14,L,D,X
    1,R,J
    5,R,D,X
@@ -494,22 +491,22 @@ console load luma/farewellbb/FarewellBB
    2,R,J
    7
    3,J
-   7
-   2,J
-   5
-   6,R,D,X
-  30,R
-  15,U,C
-  10,R
+   8,R
+   5,D,X
+  21,R
+  19,R,U,X
+   1,J,G
+   2
+   6,J,G
+   7,R
    4,Z
    1,R,J
-   6,R
-   2,R,D,J
+   5,R
+   1
   40
 
 #lvl_c-2
-   7,R,J
-   5,R
+  12,R,J
   14,R,D,X
   10,L
   27,R,C
@@ -530,10 +527,12 @@ console load luma/farewellbb/FarewellBB
    1,R,D
    3,R
    1,R,D,K
-   8,L,K
+   6,L,K
+   1,R,K
+   1,L
    1,J
   11,R,J
-   8,R
+   7,R
   39,R,U,X
    4,Z
    7,R,J
@@ -554,9 +553,9 @@ console load luma/farewellbb/FarewellBB
    9,R,J
   14,R
   18,R,Z
-   8,D,X
-  18,R
-  12,U,X
+   9,R,D,X
+  17,R
+  11,U,X
    4,Z
    9,R,U,X
    1,R,J,G
@@ -704,17 +703,15 @@ console load luma/farewellbb/FarewellBB
    1,R
    1,R,D
   18,R,X
-   4,R,Z
+   5,R,Z
    1,R,J
-   5,R
+   1
+   4,R
   40
 
 #lvl_d-1
    1,R
-   1,R,J
-   2,R
-   1
-   1,J,G
+   3,R,J
   14,R,Z
   11,R,J
   10,R,D
@@ -1167,9 +1164,9 @@ EndRepeat
    1,L,D
    1,D
    4,L,D
-   4,L
+   5,L
 StunPause, Input
-   3,L
+   2,L
    2,L,D
    1,L
 EndStunPause
@@ -1245,9 +1242,10 @@ EndStunPause
    1,R,D
    1,R
    1,R,D
-  18,R
+  16,R
+   2
    1,G
-   6,R
+   5,R
   13,R,Z
   24,R,J
   35,R,X
@@ -1924,15 +1922,16 @@ AnalogMode,Precise
    1,R,J
    7,R
   20,R,U,X
-   4
+   4,R
   15,R,C
    6,R,X
   40
 
 #lvl_g-4
-   9,R,X
+   8,R,X
+   1,L,J
   15,D,C
-   5
+   4
    1,X
    2,R,J
    1
@@ -1940,13 +1939,15 @@ AnalogMode,Precise
   13,R,J
    1,L,K,G
    1,R,K
-   5,R
-   3,R,J
+   8,R
   30,R,U,X
-   5,R,J
-  12,R
+   6,R,J
+  11,R
    1,R,J,G
-  10,R,K,G
+   3,R,K,G
+   1,K
+   1,R
+   5
   10,R,D,X
    2,R,J
   11,R
@@ -1957,28 +1958,31 @@ AnalogMode,Precise
    1,R,D
    1,R
    1,R,D
-   1,R
-   2,R,D
-   1,R
+   1
+   1,R,D
+   1,D
+   1
   17,R,Z
    1,R,J,G
-  10,R
-   6
-  15,D,X
-  12,R,D,C
-  16,R,J
-   3,R
-  15,R,U,Z
-   3
-   1,R
    1
-  15,D,X
-  15,D,C
-  15,D,X
-   3
-   1,J
+  18,R,X
+  19,D,C
+   2,L,J
+  12,R,D,X
+  13,R,J
+   3,R
+   1,R,J
+  18,R,U,Z
+   2,R
+  13,R,D,X
+   1,R,J
+   1,R
+  11,L,D,C
+   4,R,J
+  12,R,D,X
    1,L,J
-  10,R,D,C
+   4,J
+  10,R,D,X
    1,R,J
    4,R,K,G
    7,R,D,X
@@ -2023,34 +2027,40 @@ AnalogMode,Precise
    7,R,Z
   16,R,J
   15,R,D,X
-  63,R,U,G
+  62,R,U,G
+   1,G
    1
-   9,L
+   8,L
    4,R,Z
    1,R,J
-   3,R
+   2,R
    1,R,J
    1,R
+   1,R,J
    5,R,K,G
-  55,R,U,K,G
+  38,R,U,K,G
+  16,R,G
    1,L
    6,R
   15,R,U,X
-  32,R,D
-   2
-  12,R
+  28,R,D
+   1,D
+   1,R
+   1
+  13,R
   15,R,X
-  17,R
-  14,R,D,X
+  18,R
+  11,R,D,X
    8,R,J
-   2,R
-  12,R,Z
-  91,R,U,J,G
+   4,R
+  14,R,Z
+  43,R,U,J,G
+   6,R,U,G
+  30,R,U,G
    1,L
-   8,R
+  11,R
   15,U,X
-   5,L
-   4
+   9,L
   15,U,X
    3,R
    9,R,Z
@@ -2134,56 +2144,40 @@ AnalogMode,Precise
    6,R
    6,R,J
   15,R,Z
-  31,R,D
-   4,R,Z
+  28,R,D
+   3,D
+  14,R,Z
    1,R,J
-   7,R
-   1,R,J
+   5,R,D,X
   40
 
 #lvl_k-2
-   6,R,J
-  15,R,D,X
-  13,R
-   4,R,D
-  26,R,J
-  20,G
-   1,L,J
-  22,L,K
+   7,R,D,X
+  21,R,J
+  10,R
+  15,R,U,Z
+   7,L,J
+  15,R,U,X
+  22,L
+  15,U,X
+  24,R,G
    3,J,G
-   1,R,J
-   1,L,K,G
+   1,L,K
+  34,L,J
+  15,L,G
+   2,L,D,G
    1,L,J,G
-   1,R,J
-   8,L,J
-   7,L
-   2,L,J
-   7,L
-  24,R,U,X
-  17,L,D
-   1,L
-   3
-   1,L,D
-  38,R,J
-  20,G
-   1,L,J
-  11,L,K
-   4,K
-   1,R,J,G
-   3,J
-  22,L,K
-   2,K
-   2,L,K
-   9,R
-  14,G
-   1,J,G
-  17,L,K
-  18,L,X
-  15,U,C
-   1,R
-   9,L,J
-  18,L,X
-  82,U,G
+   2,L
+   6,R,U,Z
+  49,J
+  15,U,Z
+   2
+  12,U,X
+   4,L,J
+  15,L,U,X
+  17,L
+   1
+  67,U,G
    1
    1,J
   10,L,J
@@ -2199,7 +2193,8 @@ AnalogMode,Precise
   11,G
    1,R,J
   29,R,K
-   5,R
+   4,R
+   1
    1,R,J
    8,R
    3
@@ -2262,16 +2257,25 @@ AnalogMode,Precise
    3,R
    2
   10,L,U,C
-  19,R,J
-  23,R,J,G
-   1,R
-  28,R,D
-  53,R
-   1,G
-  11,J,G
+
+  18,R
+  21,R,G
+   1,L
+  23,L,D
+   1,L
+   2,R
    1
-   7,R,K,G
-   7,R
+  50,R
+   4,J,G
+   1,L,J
+   1,R,K,G
+   1,R,J,G
+   3,R,J
+   1,L
+   1,R
+   1,R,K,G
+   1,R
+   6
   13,R,Z
    2,L,J
    4,R,Z
@@ -2328,33 +2332,30 @@ AnalogMode,Precise
 #lvl_k-7t
   12,R,J,G
   12,R,K,G
-   7,R,J,G
+   6,R,J,G
   14,R,X
   20,R,J
   18,R,X
    1,S
    1,D,J
   34
-   9,R
-  11,R,X
-   4,R,J
-   5,R
-   1,R,J,G
-  27,R,D
+   8,R
+   1,R,J
+  13,R,X
+   6,R,J
+   1,R,K,G
+  25,R,D
   40
 
 #Letting Go
 #lvl_l-intro
-   3,R,D,J
+   8,R,J
+  13,R
+   5,R,J
    5,R
-  27,R,J
-   2,R
-   4,R,J
-   5,R
-   1,J
-   1,R,J
    4,J
-  14,U,X
+   1,R,J
+  14,U,Z
   21,L,J
    8,L,K,G
    1,R,J
@@ -2453,16 +2454,18 @@ AnalogMode,Precise
   16
    8,L
    1,R,K
-  89,R,J
-  30,R,U,Z
-   5
-   5,R
-  10,R,D
-   3,R
+  13,R,J
+  15,R,D,X
+  17,R
+   5,R,D
+   4,R
    1,R,D
+   1,R
+  22,R,D
+  26,R,U,X
+  22,R,Z
    1,R,J,G
-   8,R,K,G
-  29,R,D
+   6,K
   16
   28,R
   16,R,X
@@ -2501,25 +2504,29 @@ AnalogMode,Precise
   17
   10,L
    1,R,J
-  43,R,D
-  13,R,Z
+  34,R,D
+  15,R
+  12,R,Z
    4,R,J
-   2,R,K
-   8,R
-  25,R,J
-  17
-  27,R
-  15,R,X
-  42,R,D
-  31,R,X
+   5,R,K
+  10,R
+  20,R,J
+  16
+  21,L
    1,R,J
-   3,R
+   3,R,K
+  12,R
+  15,R,D,X
+  26,R,D
+   2,R
+  14,R,Z
+   1,R,J
+   4,R
   40
 
 #lvl_l-3
-  10,R,D,X
-  15,R,J
-  15,R,X
+  14,R,D,X
+  16,R,J
   16
   27,R
   19,R,Z
@@ -2543,25 +2550,26 @@ AnalogMode,Precise
   25,R,Z
    5,L,J,G
   11,L
-   9,R,J
-  14,R
+   8,R,J
+   9,R
+   1,R,J
+   2,R
   23,R,U,C
-  10,R,J
-  35,R,D
+   1,R,J
+  11,R,K
+  36,R,D
   17,R,Z
   16
   23,L
    1,R,J
-  34,R,K
+  39,R,K
   32,R,X
-  29,R,D
-   1,R,J
-  14,R
-   1
-   5,R
+  41,R
+   2,R,J
+   1,R
    1,R,J,G
    1,R,K,G
-  10,R
+   6,R
   40
 
 #lvl_l-4
@@ -2571,7 +2579,7 @@ AnalogMode,Precise
   11,R,J,G
   18,R,D,X
   12,R
-  14,R,Z
+  13,R,Z
   18,R,J
   16
   29,L
@@ -2582,49 +2590,23 @@ AnalogMode,Precise
   88,F,101.498
   13,F,101
   11,R,D,X
-   1,R,J
-   4,R
-  40
+   5,R,J
+  40,R
 
 #lvl_l-5
-  14,R,D,X
-  13,R,J
-  16
-  33,L
-  15,R,D,X
-  10,D
-   9,R,D
-  42,R,X
-  15,U,C
-  16
-  21,R
-  46,R,D,X
-  31,R,U,C
-  15,R,U,Z
-  27,R
-  19,L,D
-  27,R,D,X
-  19,R,C
-  16
-  15,L
-  10,J,G
-   3
-   5,L,Z
-   1,R,J
-  27,R
-  40
+   1,R
+   1,L,J
+   9,K,G
+  25,R,D,X
+ 140,R,C
+  40,C
 
 #lvl_l-6
-   1,R
+  23,R,C
+  16,R,D,X
    1,R,J
-  13,R,D,X
-   1,R,J
-  19,R,D
-   2,R
-   1,R,D
-   1,R,J
-   4,R,K,G
-  12,R
+   4,R
+  11,R,K,G
   16
   21,R
   13,R,D,X
@@ -2661,18 +2643,27 @@ AnalogMode,Precise
   57,L,D
    9,D
   14,L,D,X
-  13,L,J
+   5,L,J
+   8,L
   16
-  50,L,D
-  11,R,D,X
-   9,L,J
-  18,L
+  34,R,D
+  11
+   1,R
+  14,L,D,X
+   6,L,J
+   6,L
+   8,L,J
+   4,L
   12,L,J
    2,R
-   3,J
-   1,L,J
+   1,J
+   2,R,J
    1,L,K,G
-   8,R,K
+   2,L,J,G
+   1,R,J
+   1,L,J
+   2,K
+   2,R,K
    7,R,J
   16
   11,L
@@ -2688,10 +2679,7 @@ AnalogMode,Precise
   12,R,D,X
    3,R,J
    2,R,K,G
-   2,R
-   3
-   2,R
-  10,R,J,G
+  16,R,J,G
   16
   37,L,D
   29,R,D
@@ -2706,30 +2694,28 @@ AnalogMode,Precise
   40
 
 #lvl_l-7t
-  13,R
+   1
+  12,R
    1,R,J
-   6,R
-  12,R,J,G
-  15,R,D,X
+   5,R
+   1,R,J,G
+  17,R
    6,R,J
-   2,R,K,G
-  16,R
+   7,R
    1,R,J
   18,R
-   2,R,J
-   5,R
+   1,R,J
+   9,R
+   1,R,J
+   8,R
+  14,R,Z
+   1,R,J
+   2,R
    1,S
    1,D,J
   34
-  12,R
-   1
-   1,R
-   1
-   6,R
-   1,R,J,G
-   3,R,K,G
-  15,R
-  13,R,J
+   4,R
+  26,R,J
  239
   40
 
@@ -2759,13 +2745,10 @@ AnalogMode,Precise
   10,R,J
   20,R,U,X
   15,R,C
-  15,R,X
-  10
-  13,R,D
-  10,L,D
-   5,L
-   3,R
-   4,L
+  15,R,D,X
+   5,R
+  15,L,D
+   9,L
   15,R,X
   18,R,C
   16,R,U,X
@@ -2779,18 +2762,20 @@ AnalogMode,Precise
   15,F,41
    1,F,36
   18,F,26.2
-  14,R,Z
-  11
+  16,R,Z
+   9
   19,R,Z
-  38,L
-  27,R
+  30,L
+   4,L,D
+   2
+   1,L
+  26,R
   16,R,U,Z
-  21,U,C
-   3,R
+  19,U,C
+   4,R
    1,R,J,G
   10,R
-   3
-   1,R
+   4
   10,R,D,X
    1,R,J
   29,D
@@ -2921,9 +2906,13 @@ AnalogMode,Precise
    1,F,125.972
    1,F,123.806
   11,F,77
-  24,F,22
-  18,R,U,X
-  31,R,D,C
+  24,F,23.5
+  11,R,U,X
+   5,R,J,G
+   1,R
+  15,R,D,X
+   3,L,D
+  11,R,D
    5,R,Z
    2,R,J
   35
@@ -3201,27 +3190,24 @@ AnalogMode,Precise
   20,L,G
   15,D,G
   45,G
-  65,U,G
+  42,U,G
    3,J,G
    1
    2,K,G
-   1,L,K
-  13,R,K
-   2
-   6,R,X
-   1,R,J,G
-   1,J
-   1
-   6,R
+   9,L,K
+   5,R,K
+   2,K
   14,R,U,X
-  30,R,D
-  10,D
-  10,R,D
-  21,D
+   1,R,J,G
+  10,R
+  14,R,U,Z
+  24,R
+  23,R,D
+  23,D
    1,R,D
    1,D
    1,R,D
-   5,R
+   6,R
    8,R,J
   13,R
   32,D
@@ -3432,11 +3418,35 @@ AnalogMode,Precise
   21,R,U,X
   27,R,D,C
   17,R,D,X
-   7,R,J
+
+# +0f
+# for h-11 stun
+#   7,R,J
+#   7,R,Z
+#   4,R,J
+#   1,R,K,G
+#   5,R
+
+# +1f
+# for h-11 stun
+#   2,R,J
+#   6,J
+#   7,R,Z
+#   4,R,J
+#   1,R,K,G
+#   5,R
+
+# +2f
+# for h-11 stun
+   2,R,J
+   6,J
    7,R,Z
-   4,R,J
-   1,R,K,G
+   1,R,J
+   3,R
+   2,R,K,G
    5,R
+
+
   40
 
 #lvl_h-0
@@ -3503,25 +3513,27 @@ AnalogMode,Precise
   18,R,U,X
    4,L
    5,R,X
-  68,R,U,G
-  25,R,G
-  16,R,U,G
-   9,R
-  19,R,U,X
-  32,R,G
+  37,R,G
+  14,R,D,G
    1,L
-  16,R
-  14,R,D,X
-  29,R,J
-   1,G
+  14,R
+  14,R,X
+  38,R
+  14,R,U,X
+   9,L
+  14,R,U,X
+  15,R
    1
-   1,J
-  10,L
-  24,R,D
-  14,R,Z
-   1,L,J,G
-   9,R,J
-  65,R
+   1,R
+   3
+  11,R,Z
+   1,R,J
+  19,R,D
+   2,R
+   1,R,D
+  26,R
+  18,R,U,X
+  52,R
   40
 
 #lvl_h-2
@@ -3539,29 +3551,23 @@ AnalogMode,Precise
    4,R
   26
    1,R,D
-  30,F,156
-   4,F,146
-   3,F,136
-   2,F,126
-   2,F,116
-   2,F,106
-   2,F,96
-  12,R
-   3,F,83
-   2,F,75
-  36,F,65
-  14,R,U,X
+  10,F,90
+  32,F,37
+   5,F,90
+  34,F,104
+   3,F,90
+  16,R,D,X
   49,R
    8,R,X
   40
 
 #lvl_h-3
    6,R,X
-  68,R
-   5,U,X
+  66,R
+   5,R,U,X
    4,R
-  15,D
-  12,L,D
+  16,D
+  11,L,D
   14,R
    7,L,U,X
    1,L,J,G
@@ -3909,145 +3915,96 @@ AnalogMode,Precise
   24,L,D
    1,R,D
    7,R
-  52,L
+  61,L
+   1,G
+  32,R,J
+  10,L
+   1,L,D
+  15,L,D,X
    3,L
-   1,J
-   1,L,K,G
-  28,R,K
-  19,D
-   1
-   1,R
-   2,R,D
-  15,L,X
-   4,L
-   1,R
-   4,R,Z
-   1,R,J
-   5,R
-  10,R,J
-   4,R
-   4
+   6,L,Z
    2,R,J
-   9
-  14,R,U,Z
-   8,R
-  18
-   1,D
-   1
-   4,D
-   4,L
-   1,J,G
-  29,L
-   5,L,X
-   1,J
-   1,L,K,G
-  29,R
-  38
-  19,R,D,X
-  46,R
+   1,R
+StunPause, Input
+   3,R
+   1,L,J
+   2,R,J
+SkipInput,3,1
+   6,R,D,X
+   1,L,J,G
+EndStunPause
+   7,R,J
+StunPause, Input
+   2,R,J
+   5,R
+   5,R,J
+EndStunPause
+  14,R
+StunPause, Input
+   2,R
+EndStunPause
+   9,R,D
+   2,R
   40
 
 #lvl_h-12
-   8,R
-  15,R,D,X
-  23,R,J
-   6,R
-  14,R,X
-   3,L,J
-  15,R,Z
-  20,R,J
-  15,R,U,X
-  15,R,G
-   1
-   1,J
-   4,L,J
-   3,L
-  27,R,D
-   5,R,Z
-   1,R,J
-   4,R
-  10,R,J
-   1,R
-  15,R,D,X
-   9,R,J,C
-   4,R
-   2
-   2,R
-   5,L,Z
-   1,R,J
-   4,R
+   5,R
+   3,R,D,J
+StunPause, Input
    3,R,J
-   1,R
-   6
-   4,J
-  11,R,U,X
-  63,R,U,G
-   2,R,G
-   7
-   9,L
-   1,R
-  12,R,U,X
-   1,G
-  29,D,G
-   2,D
-   4,R
-  10
-  13,L,D,X
-   1,R,J
-   1,R
-   5,R,D,X
-  13,R,G
-   6,R,J
-   2,R
-   1,L
-   1,R
-   3
-   2,R,J
-   8,R
-  15,U,X
-   1,R
-  14,J
-   6,R,J
+   3,R
    1,R,K,G
-   2,R,J,G
-  22,R,D
-  45,R
-   5,R,D,X
+EndStunPause
+   1,R,K
+   1,R
+StunPause, Input
+   3,R
+   3,R,J
+EndStunPause
+   7,R,J
+  13,R,Z
+StunPause, Input
+   1,R,Z
+   1,R,J,G
+EndStunPause
+  10,R,J,G
+  14,R
+   2
+  10,R,U,Z
   40
 
 #lvl_h-13yoshachobi7
-  10,R,D,X
-  10,R,U,C
+   4,R,U,Z
    1,L,J,G
-  11,R,J
-   1,K
-   1,L,J,G
-  14,L,J
-   1,J
-  32,R,K
-   6,J,G
-   1,L,J
-  14,R,K,G
-   1,J,G
-   2,R,J
-   4,J
-   2,R,J
-  21,R,U,Z
-  21,L,D
-  36,R
-  16,R,D
-  14,R,Z
-   6,R,J,G
-   4,R
-   4,R,J
-   7,R,K,G
+   1,R,J
+   4
+StunPause, Input
+   1
+SkipInput,3,1
+   9,R,U,X
+EndStunPause
+   5,R,U,X
+  11
+   9,R
+   1,R,J,G
+   4,R,K,G
    8,R
-   3,R,J
-  15,R
-  18,L,J
-  23,L
-   2
-  12,R,D
+   1,R,J
+   8,R
+   7,R,J
+   5,R
+   1,R,J,G
+  14,R
+  47,R,J
+   2,R,K,G
+   1,J
+  18,L,K
+  21,L
+   1
+   1,L
+   1
+   2,D
+  11,R,D
    1
   15,L,X
   10,R,C
@@ -4239,51 +4196,45 @@ AnalogMode,Precise
    1,L
   20,R,U,X
   10,R,D,C
-   8,R,J
-  17,R
-  10,D,X
-  30,R
+   7,R,J
+   5,R
+   1,R,J
+  18,R,D
+  25,R
   15,R,D,X
   26
    1,R,U
-  36,F,50
+  32,F,50.2
+   4,F,50.1
    4,G,F,10
 AnalogMode,Ignore
-  34,G
+  91,G
    5,L,X
-  25
-  21,L
-   8,G
-  10,R,D,X
-  14,R,J
-  14,R,D,X
-  31,R
-  43
+  23
+  13,L
+   3,L,D
+  15,G
+   1
+   1,J
+   1,L,K,G
+   9,R,D,X
+   1,L,J,G
+  20,R,J
+   1
+  10,R
+  40
 
 #lvl_h-18ricky06
-   5,R
-  14,R,U,X
-  37
-  14,R,X
-  11,R
-  12,D
-   1,J
-   5,R
-   2,R,J
-   8,R
-   4,R,Z
-   1,R,J
-   7,R
-   1,R,J
-   1,R,K,G
-   6,R,J,G
-   2,J
-   4
-  14,R,U,X
-  48,R
-  14,D,X
+  10,R
+   1
+  10,R
+  19,R,U,X
+  51,R
+  13,D,X
    2,R,D
-  59,R,D
+  50,R,D
+   5,D
+   3
   14,R,X
   14
    1,J
@@ -4319,74 +4270,80 @@ AnalogMode,Ignore
   14,U,C
   13,R,J
   15,R
-  21,R,G
-  57,R
-  27
-   1,R
-   1
+  34,R,U,G
    7,R
-  11,R,J
-  37,J,G
+  20
    2,R
-   5,L
-  14,R,U,X
-   2,R
-   2
-   5,U,G
-  80,R,U,G
-  57,R,G
+  10,R,X
+  15,R,J
+  11,U,X
+ 170,R,U,G
    1,L
-  32,R,D
-   1,R
+  29,R,D
+   1,D
+   1,R,D
+   1
   35,R
-  13,R,U,Z
-  40,R
-  10,R,U,X
-  56,R
+  11,R,U,Z
+  38,R
+  12,R,U,Z
+  59,R
   14,R,X
-  64,R
+  66,R
   14,R,U,X
 
-#+0f
-#for i-99 spinner
-#  34,R
+# +0f
+# for i-99 stun
+#  27,R,D
+#   3,R
 #   5,D,X
 #   6
 #   1,R,J
-#  12,R
+#  10,R
 
-#+1f
-#for i-99 spinner
-#35,R
-#5,D,X
-#6
-#1,R,J
-#6,R
-#1
-#1,R
-#3
-#1,R
+# +1f
+# for i-99 stun
+#  27,R,D
+#   3,R
+#   5,D,X
+#   6
+#   1,R,J
+#   5,R
+#   3,J
+#   3
 
-#+2f
-#for i-99 spinner
-  35,R
+# +2f
+# for i-99 stun
+  27,R,D
+   3,R
    5,D,X
    6
-   1,R,J
-   7,R
-   4
-   1,R
+   2,R,J
+   6,R
    1
+   4
 
+# we need to lose 36f here because the spinner we stun in i-99 changes groups mid-stun if we arrive earlier
+# +0f inputs commented out below
    5,D,X
   12
+  11,R,J
+   1,J
+   4
    1,R,J
-   7,R
-   3
+  18
   14,R,D,X
    1,R,J
-  11,R,D,X
+  10,R,D,X
    1,R,J
+
+
+#   1,R,J
+#  15,R
+#  14,R,D,X
+#   1,R,J
+#  10,R,D,X
+#   1,R,J
   40
 
 #lvl_h-19t
@@ -4411,6 +4368,8 @@ AnalogMode,Ignore
 
 #Everlasting Farewell
 #lvl_i-99
+
+
    3,R,D,X
    1,R,J
    2
@@ -4736,7 +4695,6 @@ Repeat, 33
 EndRepeat
    2,R
    1,L
-ChapterTime: 13:20.530(47090)
+ChapterTime: 12:59.943(45879)
  100
    1,J
-
